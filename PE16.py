@@ -1,0 +1,1 @@
+print(list(int(x) for x in list("2545")))
