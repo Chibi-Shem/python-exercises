@@ -5,7 +5,7 @@ def contains(lst, obj):
 
     try:
         for x in lst:
-            if obj==x:
+            if obj == x:
                 return True
         return False
     except:

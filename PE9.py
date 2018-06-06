@@ -3,10 +3,10 @@
 def get_unique(lst):
     """Removes duplicate objects in lst."""
 
-    new_list=[]
+    new_list = []
     for x in range(len(lst)):
-    	if lst.count(lst[x]) == 1:
-	    	new_list.append(lst[x])
+        if lst.count(lst[x]) == 1:
+            new_list.append(lst[x])
     return new_list
 
 

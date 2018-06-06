@@ -7,8 +7,8 @@ def check_difference(lst, lst2):
 
     new_list = []
     for x in lst:
-        if lst2.count(x)==0:
-        	new_list.append(x)
+        if lst2.count(x) == 0:
+            new_list.append(x)
     return new_list
 
 

@@ -5,5 +5,5 @@ def insert(lst, x):
     return lst + [x]
 
 
-lst=[1, 2, 3]
+lst = [1, 2, 3]
 print(insert(lst, 4))

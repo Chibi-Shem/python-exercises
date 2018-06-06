@@ -7,7 +7,7 @@ def find_object(lst, obj):
 
     try:
         for x in lst:
-            if x.items().count(obj.items()[0])>=1:
+            if x.items().count(obj.items()[0]) >= 1:
                 return x
         return str(obj) + ' is not in list.'
     except:
@@ -15,7 +15,7 @@ def find_object(lst, obj):
 
 
 print(find_object([
-            {1: 'one', 'index': 0 },
+            {1: 'one', 'index': 0},
             {2: 'two', 'index': 1},
             {3: 'three', 'index': 2}
             ],

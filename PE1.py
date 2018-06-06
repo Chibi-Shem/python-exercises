@@ -6,10 +6,10 @@ def dict_persons(persons):
     """
 
     grouped_dict = {}
-    grouped_dict.update({'A': persons[:len(persons)/2]})
-    grouped_dict.update({'B': persons[len(persons)/2:]})
+    grouped_dict.update({'A': persons[:len(persons) / 2]})
+    grouped_dict.update({'B': persons[len(persons) / 2:]})
     return grouped_dict
 
 
-lst=['Shem', 'JC', 'Joshua', 'Arriane', 'John Smith']
+lst = ['Shem', 'JC', 'Joshua', 'Arriane', 'John Smith']
 print(dict_persons(lst))

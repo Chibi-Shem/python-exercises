@@ -7,5 +7,5 @@ def sort_list(lst):
     return lst
 
 
-lst = [2, 1 , 3, 1, 5, 6]
+lst = [2, 1, 3, 1, 5, 6]
 print(sort_list(lst))
