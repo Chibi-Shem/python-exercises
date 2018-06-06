@@ -5,7 +5,7 @@ def get_ints(lst):
 
     new_list = []
     for x in lst:
-        if type(x) is int:
+        if isinstance(x, int):
             new_list.append(x)
     return new_list
 
